@@ -1,0 +1,124 @@
+/*
+        if ( boolean expression)
+
+        {
+            // statements
+        }
+    }
+}
+[if-then-else]
+if (expression) {
+   // codes
+}
+else {
+  // some other code
+}The if statement executes a certain section of code if the test expression is evaluated to true. However, if the test expression is evaluated to false, it does nothing.
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+[if else Statement]
+class IfElse {
+    public static void main(String[] args) {
+        int number = 8;
+
+        // checks if number is greater than 4
+        if (number > 4) {
+            System.out.println("The number is positive.");
+        }
+        else {
+            System.out.println("The number is not positive.");
+        }
+
+        System.out.println("This statement is always executed.");
+    }
+}Since the value of the number is 8, the test expression evaluates to true. Hence code inside the body of if is executed.
+==================================================================================================================================================================================
+import java.util.Scanner;
+
+public class EvenOdd {
+
+    public static void main(String[] args) {
+
+        Scanner reader = new Scanner(System.in);
+
+        System.out.print("Enter a number: ");
+        int num = reader.nextInt();
+
+        if(num % 2 == 0)
+            System.out.println(num + " is even");
+        else
+            System.out.println(num + " is odd");
+    }
+}
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+[if...else...if]
+- if (exp1) {
+   // codes
+}
+else if(exp2) {
+   // codes
+}
+else if (exp3) {
+   // codes
+}
+.
+.
+else {
+   // codes
+} As soon as the test expression is true, codes inside the body of that the if statement is executed. Then, the control of the program jumps outside the if-else-if ladder.
+If all test expressions are false, codes inside the body of else is executed.
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+[if..else..if]
+class Ladder {
+    public static void main(String[] args) {
+
+        int number = 3;
+
+        // checks if number is greater than 3
+        if (number > 3) {
+            System.out.println("The number is positive.");
+        }
+
+        // checks if number is less than 3
+        else if (number < 3) {
+            System.out.println("The number is negative.");
+        }
+        else {
+            System.out.println("The number is 3.");
+        }
+    }
+}
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+[Nested if..else Statement]
+class Number {
+    public static void main(String[] args) {
+
+        // declaring double type variables
+        Double i1 = -2.3, i2 = 6.4, i3 = -7.4, largestNumber;
+
+        // checks if i1 is greater than or equal to i2
+        if (i1 >= i2) {
+
+            // if...else statement inside the if block
+            // checks if i1 is greater than or equal to i3
+            if (i1 >= i3) {
+                largestNumber = i1;
+            }
+
+            else {
+                largestNumber = i3;
+            }
+        }
+        else {
+
+            // if..else statement inside else block
+            // checks if i2 is greater than or equal to i3
+            if i2 >= i3) {
+                largestNumber = i2;
+             }
+            else {
+                largestNumber = i3;
+            }
+        }
+
+        System.out.println("The largest number is " + largestNumber);
+    }
+}

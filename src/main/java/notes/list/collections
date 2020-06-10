@@ -1,0 +1,14 @@
+// The Collections framework is defined in the java.util package
+import java.util.ArrayList;
+
+class Main {
+    public static void main(String[] args){
+        ArrayList<String> brands = new ArrayList<>();
+        // Add elements
+        brand.add("Nike");
+        brand.add("Addidas");
+        brand.add("Puma");
+
+        System.out.println("ArrayList: " + brands);
+    }
+}

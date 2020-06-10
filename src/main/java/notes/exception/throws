@@ -1,0 +1,16 @@
+throws keyword in the method declaration to declare the type of exceptions that might occur within it
+
+ public static void findLink() throws IOException {
+    // code that may produce IOException
+    Link newLink=new Link("https://www.programiz.com/");
+    LinkInputStream stream=new LinkInputStream(newLink);
+  }
+
+  public static void main(String[] args) {
+    try{
+      findLink();
+    } catch(IOException s){
+      System.out.println(s);
+    }
+  }
+}

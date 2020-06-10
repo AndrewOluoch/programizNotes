@@ -1,0 +1,26 @@
+try {
+  // code
+} catch (ExceptionType e) {
+  // catch block
+} finally {
+  // finally block
+}
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+    try {
+      int divideByTwo = 8 / 2;
+      System.out.println("Rest of code in try block");
+    } catch (ArithmeticException s) {
+      System.out.println("ArithmeticException => " + s.getMessage());
+    }
+
+ --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+     try {
+       int divideByZero = 5 / 0;
+     } catch (ArithmeticException e) {
+       System.out.println("ArithmeticException => " + e.getMessage());
+     } finally {
+       System.out.println("Finally block is always executed");
+     }
+ --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
