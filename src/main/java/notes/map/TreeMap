@@ -1,0 +1,14 @@
+java.util.TreeMap
+
+TreeMap<Key, Value> numbers = new TreeMap<>();
+
+-stores key-value pairs sorted by natural order of its keys
+higherKey() - Returns the lowest key among those keys that are greater than the specified key.
+higherEntry() - Returns an entry associated with a key that is lowest among all those keys greater than the specified key.
+lowerKey() - Returns the greatest key among all those keys that are less than the specified key.
+lowerEntry() - Returns an entry associated with a key that is greatest among all those keys that are less than the specified key.
+ceilingKey() - Returns the lowest key among those keys that are greater than the specified key. If the key passed as an argument is present in the map, it returns that key.
+ceilingEntry() - Returns an entry associated with a key that is lowest among those keys that are greater than the specified key. It an entry associated with the key passed an argument is present in the map, it returns the entry associated with that key.
+floorKey() - Returns the greatest key among those keys that are less than the specified key. If the key passed as an argument is present, it returns that key.
+floorEntry() - Returns an entry associated with a key that is greatest among those keys that are less than the specified key. If the key passed as argument is present, it returns that key.
+

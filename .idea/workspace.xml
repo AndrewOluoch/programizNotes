@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="13f5c871-6b5e-412d-bb3a-3592ef149f83" name="Default Changelist" comment="" />
+    <list default="true" id="13f5c871-6b5e-412d-bb3a-3592ef149f83" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/notes/map/HashMap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/notes/map/LinkedHashMap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/notes/map/TreeMap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/notes/que/Queue Interface" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/notes/set/setInterface" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/notes/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/notes/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/notes/list/collections" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/notes/list/collections" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,6 +24,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
       <MavenImportingSettings>
@@ -22,6 +35,7 @@
     </option>
   </component>
   <component name="ProjectId" id="1d5nNdBjINwmvosdaYgMljtXPZG" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -29,7 +43,8 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
@@ -40,7 +55,7 @@
       <recent name="C:\Users\Student\Downloads\fundamentals\programiz\src\main\java\notes" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Loop" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="for_loop.Loop" />
       <module name="programiz" />
@@ -54,8 +69,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="notes.Main" />
+      <module name="programiz" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="notes.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.Loop" />
       </list>
     </recent_temporary>
@@ -74,22 +103,30 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="412" y="163" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1591793682152">
+    <state x="412" y="163" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1591816555475">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state x="412" y="163" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1280.720@0.0.1280.720" timestamp="1591793682152" />
-    <state x="504" y="289" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1591793371695">
+    <state x="412" y="163" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1280.720@0.0.1280.720" timestamp="1591816555475" />
+    <state x="504" y="289" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1591798541619">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state x="504" y="289" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1280.720@0.0.1280.720" timestamp="1591793371695" />
-    <state x="146" y="5" key="SettingsEditor" timestamp="1591773211295">
+    <state x="504" y="289" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1280.720@0.0.1280.720" timestamp="1591798541619" />
+    <state x="146" y="0" key="SettingsEditor" timestamp="1591811465062">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state x="146" y="5" key="SettingsEditor/0.0.1280.720@0.0.1280.720" timestamp="1591773211295" />
+    <state x="146" y="0" key="SettingsEditor/0.0.1280.720@0.0.1280.720" timestamp="1591811465062" />
     <state x="612" y="184" key="com.intellij.ide.util.TipDialog" timestamp="1591767620147">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
     <state x="612" y="184" key="com.intellij.ide.util.TipDialog/0.0.1280.720@0.0.1280.720" timestamp="1591767620147" />
+    <state x="120" y="280" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1591894488691">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state x="120" y="280" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.720@0.0.1280.720" timestamp="1591894488691" />
+    <state x="0" y="59" key="new project wizard" timestamp="1591851719082">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state x="0" y="59" key="new project wizard/0.0.1280.720@0.0.1280.720" timestamp="1591851719082" />
     <state x="623" y="164" key="run.anything.popup" timestamp="1591791745368">
       <screen x="0" y="0" width="1280" height="720" />
     </state>

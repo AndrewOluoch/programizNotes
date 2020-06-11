@@ -1,0 +1,25 @@
+import java.util.Queue
+
+// LinkedList implementation of Queue
+Queue<String> house1 = new LinkedList<>();
+
+// Array implementation of Queue
+Queue<String> house2 = new ArrayDeque<>();
+
+// Priority Queue implementation of Queue
+Queue<String> house3 = new PriorityQueue<>();
+The Queue interface includes all the methods of the Collection interface. It is because Collection is the super interface of Queue.
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+[Linked List]
+// create Integer type linked list
+LinkedList<Integer> linkedList = new LinkedList<>();
+
+// create String type linked list
+LinkedList<String> linkedList = new LinkedList<>();
+
+[LinkedList using Interfaces]
+List<String> animals1 = new LinkedList<>();
+
+Queue<String> animals2 = new LinkedList<>();
+
+Deque<String> animals3 = new LinkedList<>();

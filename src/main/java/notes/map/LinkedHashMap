@@ -1,0 +1,19 @@
+LinkedHashMap internally maintains a doubly-linked list among all of its entries to order its entries.
+
+LinkedHashMap class also allows us to define the order of its entries
+
+
+- LinkedHashMap with specified order
+LinkedHashMap<Key, Value> numbers2 = new LinkedHashMap<>(capacity, loadFactor, accessOrder);
+
+ // Creating a LinkedHashMap of odd numbers
+        LinkedHashMap<String, Integer> evenNumbers = new LinkedHashMap<>();
+        evenNumbers.put("Three", 3);
+        evenNumbers.put("Five", 5);
+        System.out.println("LinkedHashMap1: " + oddNumbers);
+
+        // Creating a LinkedHashMap from other LinkedHashMap
+        LinkedHashMap<String, Integer> numbers = new LinkedHashMap<>(oddNumbers);
+        numbers.put("Four", 4);
+        System.out.println("LinkedHashMap2: " + numbers);
+
